@@ -1,0 +1,9 @@
+.about {
+    text-align: center;
+    margin: 20% 20% 25%;
+    padding-top: 50px;
+}
+
+.about > h2 {
+    text-align: center;
+}

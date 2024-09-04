@@ -1,0 +1,81 @@
+.big_post {
+display: inline-flex;
+width: 100%;
+margin-top: 40px;
+}
+
+.big_card{ 
+height: 230px;
+width: 45%;
+background-color: khaki;
+margin: 30px 25px 20px 25px;
+background-size: 100% 100%;
+box-shadow: 2px 1px 1px gray;
+color: inherit;
+text-decoration: none;
+}
+
+.bigcard_content {
+position: relative;
+bottom: -60%;
+text-align: start;
+color: whitesmoke;
+padding: 10px;
+
+}
+
+.bigcard_content > h3 {
+font-size: 1.4rem;
+}
+
+
+/* small card */ 
+.small_card {
+    width: 30%;
+    margin: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    }
+
+ .img {
+        display: flex;
+         height: 200px;
+        width: 50%px;
+        border-radius: 10px;
+        box-shadow: 0.5px 3px 3px 3px gray;
+    }
+
+
+.topic {
+    width: 80%;
+    font-size: 1.2rem;
+    align-self: center;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 720px) {
+    .big_card {
+        display: inline-grid;
+        width: 80%;
+        margin: 55px auto;
+        text-align: center;
+
+    }
+
+    .bigcard_content {
+        text-align: center;
+        color: black;
+        bottom: -90%;
+    }
+
+.small_card {
+    display: none;
+}
+
+.bigcard_content > h3 {
+    margin: 20px;
+    font-size: 1rem;
+}
+ 
+}
